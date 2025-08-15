@@ -24,12 +24,12 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
-  <main>
+    <main>
     <!-- CABECALHO RESPONSIVO COM bootstrap (INICIO)-->
     <nav class="navbar teste navbar-expand-lg cor_cabecalho">
       <div class="container-fluid margem_logo">
         <a class="navbar-brand" href="#" onclick="location.reload()">
-          <img alt="img_logo" src="imagens/LOGO_NEXO.png">
+          <img src="imagens/LogoCabecalho.png" alt="">          
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,6 +52,11 @@
                 OBJETIVO
               </a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link cabecalho fs-6 font" href="#CONTATO">
+                CONTATO
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -62,23 +67,22 @@
     <section id="HOME">
       <div class="row">
         <div class=" font_2 conteudo_home col-sm-12 col-md-6 col-lg-6">
-          <p class="fs-1 hidden">
-            Estamos <strong class="strong"> comprometidos </strong> em colaborar diretamente com você
+          <p class="fs-1 hidden cor_font_home">
+            Liberte-se da <strong class="strong"> bagunça financeira </strong> e <strong class="strong"> transforme </strong> seu negócio. 
+          </p>
+          <p class="fs-2 hidden cor_font_home">
+            Fale <strong class="strong"> agora </strong>com nosso time
           </p>
           <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-12 botoes_contato margin-top-btn ">
           <a class="btn btn-outline-light btn-cor width-height-btn margin-left-btn width-height-btn_cell margin-bnt_cell font padding-btn_icons padding-btn_icons_cell ">
-            CADASTRE - SE
-          </a>
-          <a class=" btn btn-outline-light btn-cor width-height-btn margin-left-btn width-height-btn_cell margin-bnt_cell font padding-btn_icons padding-btn_icons_cell "
-          type="button">
-            LOGIN
+            ENTRE EM CONTATO
           </a>
         </div>
       </div>
         </div>
-        <div class=" img_home col-12 col-sm-12 col-md-6 col-lg-6">
-          <img alt="balanca_img" src="imagens/Sem título.png" class="img-fluid hidden_direita">
+        <div class=" img_home col-12 col-sm-12 col-md-6 col-lg-6 hidden_rigth">
+          <img src="imagens/Desenho1.png" alt="Liberte-se">
         </div>
       </div>
     </section>
@@ -87,15 +91,18 @@
         <div class=" font_2 conteudo_sobre col-sm-12 col-md-6 col-lg-6">
           <div class="tam_texto_sobre hidden">
             <p>
-              Na <strong> NEXO </strong>, tornamos o controle financeiro mais simples, acessível e eficaz. Criamos uma plataforma intuitiva que ajuda você a<strong> organizar gastos, quitar dívidas, investir com segurança e planejar seus objetivos </strong> tudo em um só lugar.
+              Toda empresa começa com uma ideia. 
             </p>
             <p>
-              Nosso propósito é ser o elo entre você e sua<strong> liberdade financeira </strong>, conectando cada parte da sua vida financeira de forma clara e inteligente.
+              A Nexos  começou com uma <strong class="strong"> inquietação</strong>. Enquanto muitos alimentavam ferramentas financeiras com os seus números, nós víamos pessoas tentando crescer sem domínio e uma direção clara.
+            </p>
+            <p>
+              E decidimos mudar isso. Criamos a <strong class="strong"> Nexos </strong>para <strong class="strong"> transformar finanças </strong> em decisão, e <strong class="strong"> decisão </strong> em <strong class="strong"> crescimento </strong>.
             </p>
           </div>
         </div>
         <div class=" img_sobre col-12 col-sm-12 col-md-6 col-lg-6">
-          <img alt="apertodemaos_img" src="imagens/equipe (1).png" class="img-fluid hidden">
+          <img alt="Alvo" src="imagens/Desenho2.png" class="img-fluid hidden">
         </div>
       </div>
     </section>
@@ -107,45 +114,56 @@
       <div class="cards">
         <div class="row text-center px-5 mb-4">
           <div class="padding_card col-12 col-sm-12 col-md-4 col-lg-4 hidden">
-            <div class="card cor_cards">
-              <img src="imagens/OBJETIVO.jpg" class="card-img-top" alt="img_card">
+            <div class="card cor_cards" style="width: 22rem;">
+              <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Imagem de capa do card">
               <div class="card-body">
-                <h5 class="card-title font"> ORGANIZAÇÃO </h5>
-                <p class="card-text my-3 font_2">
-                   Controle seus gastos de forma simples e eficiente. Com uma interface intuitiva e sem complicações, você visualiza onde seu dinheiro está indo, categoriza despesas e mantém tudo em ordem com poucos toques.
+                <h5 class="card-title">Título do card</h5>
+                <p class="card-text">
+                  Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.
                 </p>
               </div>
+
+              <ul class=" list-group list-group-flush">
+              <li class="list-group-item cor_cards">Cras justo odio</li>
+              <li class="list-group-item cor_cards">Dapibus ac facilisis in</li>
+              <li class="list-group-item cor_cards">Vestibulum at eros</li>
+              </ul>
             </div>
           </div>
-  
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Imagem de capa do card">
-        <div class="card-body">
-          <h5 class="card-title">Título do card</h5>
-          <p class="card-text">
-            Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.
-          </p>
-        </div>
+          <div class="padding_card col-12 col-sm-12 col-md-4 col-lg-4 hidden">
+            <div class="card cor_cards" style="width: 22rem;">
+              <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Título do card</h5>
+                <p class="card-text">
+                  Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.
+                </p>
+              </div>
 
-        <ul class="list-group list-group-flush">
-        <li class="list-group-item">Cras justo odio</li>
-        <li class="list-group-item">Dapibus ac facilisis in</li>
-        <li class="list-group-item">Vestibulum at eros</li>
-        </ul>
-
-        
-      </div>
+              <ul class=" list-group list-group-flush">
+              <li class="list-group-item cor_cards">Cras justo odio</li>
+              <li class="list-group-item cor_cards">Dapibus ac facilisis in</li>
+              <li class="list-group-item cor_cards">Vestibulum at eros</li>
+              </ul>
+            </div>
+          </div>    
 
   
           <div class="padding_card col-12 col-sm-12 col-md-4 col-lg-4 hidden">
-            <div class="card cor_cards">
-              <img src="imagens/INVESTIMENTO.jpg" class="card-img-top" alt="img_card">
+            <div class="card cor_cards" style="width: 22rem;">
+              <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Imagem de capa do card">
               <div class="card-body">
-                <h5 class="card-title font font_2"> INVESTIMENTO </h5>
-                <p class="card-text my-3 font_2">
-                  Investir nunca foi tão acessível. Com recomendações práticas e uma visão descomplicada do seu crescimento financeiro, o NEXO te ajuda a tomar decisões seguras e inteligentes, mesmo que você esteja começando agora.
+                <h5 class="card-title">Título do card</h5>
+                <p class="card-text">
+                  Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.
                 </p>
               </div>
+
+              <ul class=" list-group list-group-flush">
+              <li class="list-group-item cor_cards">Cras justo odio</li>
+              <li class="list-group-item cor_cards">Dapibus ac facilisis in</li>
+              <li class="list-group-item cor_cards">Vestibulum at eros</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -162,7 +180,7 @@
         </p>
       </div>
       <button id="scrollTopButton">
-        <img alt="botao_img" src="imagens/pra-cima (1).png">
+        <img alt="botao_img" src="imagens/PraCima.png">
       </button>
     </footer>
   </main>
@@ -193,7 +211,7 @@
     scrollToButton.addEventListener("click", scrolltoTop);
   </script>
   <!-- BOTAO SCROLL PARA O TOP COM JS (FIM) -->
-  <!-- ANIMAÇÃO COM JS NA PAGINA (INICIO) -->
+  <!-- ANIMAÇÃO COM JS NA PAGINA ESQUERDA PARA DIREITA (INICIO) -->
   <script>
 
     const myObserver = new IntersectionObserver( (entries) => {
@@ -212,8 +230,27 @@
     
 
   </script>
+  <!-- ANIMAÇÃO COM JS NA PAGINA ESQUERDA PARA DIREITA ( FIM ) -->
+  <!-- ANIMAÇÃO COM JS NA PAGINA DIREITA PARA ESQUERDA (INICIO) -->
+  <script>
 
-  <!-- ANIMAÇÃO COM JS NA PAGINA (FIM) -->
+    const myObserver2 = new IntersectionObserver( (entries) => {
+      entries.forEach( (entry) => {
+        if (entry.isIntersecting){
+          entry.target.classList.add('show')
+        } else {
+          entry.target.classList.remove('show')
+        }
+      })
+    })
+
+    const elements2 = document.querySelectorAll('.hidden-right')
+    
+    elements2.forEach( (element) => myObserver2.observe(element) )
+    
+
+  </script>
+  <!-- ANIMAÇÃO COM JS NA PAGINA DIREITA PARA ESQUERDA (FIM) -->
 </body>
 
 </html>
