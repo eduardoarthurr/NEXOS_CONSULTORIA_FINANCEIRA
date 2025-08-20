@@ -31,8 +31,7 @@ Este projeto representou uma importante oportunidade de evolução profissional,
 
 ## 🖼️ Demonstração
 
-![Descrição da imagem]()
-
+![Preview da Landing Page](./imagens/PrintLandingPage.png)
 
 ---
 
@@ -40,4 +39,4 @@ Este projeto representou uma importante oportunidade de evolução profissional,
 Para executar localmente:  
 1. Clone este repositório:  
    ```bash
-   git clone https://github.com/seu-usuario/nexos-landing-page.git
+   git clone https://github.com/eduardoarthurr/NEXOS_CONSULTORIA_FINANCEIRA.git
