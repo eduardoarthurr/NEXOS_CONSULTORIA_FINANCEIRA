@@ -28,11 +28,12 @@
 
 .strong {
     color: var(--cor_primaria);
+
 }
 
-.cor_font_home {
+.strong_2{
     color: var(--cor_terciaria);
-     
+
 }
 
 /* FONTES (FIM)  */
@@ -113,18 +114,21 @@ section {
 
 #HOME {
     background-color: var(--cor_secundaria);
+    border: none;
 }
 
 @media (min-width: 992px) {
     #HOME{
-        height: 120vh;
+        border: none;
+        height: 100vh;
         width: 100vw;
     }
 }
 
 @media (max-width: 576px) {
     #HOME{
-        height: 160vh;
+        border: none;
+        height: 120vh;
         width: 100vw;
         padding: 8% 0% 0% 0%;
     }
@@ -132,7 +136,7 @@ section {
 
 .conteudo_home {
     text-align: center;
-    padding: 10% 6% 6% 5%;
+    padding: 12% 6% 6% 5%;
 }
 
 .tam_texto_home {
@@ -148,10 +152,12 @@ section {
 .img_home {
     display: flex;
     justify-content: center;
-    padding: 12% 4% 0% 4%;
+    padding: 8% 4% 0% 4%;
 }
 
 
+
+/* BOTOES (INICIO) */
 
 @media (min-width: 992px) {
     .margin-top-btn {
@@ -215,15 +221,18 @@ section {
     background-color: var(--cor_primaria);
 }
 
+/* BOTOES (FIM) */
 #SOBRE {
+    border: none;
     height: 100vh;
     width: 100vw;
     background-color: var(--cor_secundaria);
 }
 
+
 .conteudo_sobre {
     text-align: center;
-    padding: 15% 5% 6% 5%;
+    padding: 8% 5% 6% 5%;
     color: var(--cor_terciaria);
 }
 
@@ -234,52 +243,130 @@ section {
 
 .img_sobre {
     background-color: #273440;
-    padding: 8% 0% 0% 5%;
+    padding: 6% 0% 0% 3%;
 
 }
 
-
+@media (max-width: 576px) {
+    .img_sobre{
+        padding: 0% 0% 10% 0%;
+    }
+}
 
 @media (min-width: 992px) {
-    #AREA{
-        height: 100vh;
+    #OBJETIVO{
+        height: 120vh;
         width: 100vw;
         margin: 5% 0% 0% 0%;
     }
 }
 
 @media (max-width: 576px) {
-    #AREA{
-        height: 208vh;
+    #OBJETIVO{
+        height: 320vh;
         width: 100vw;
-        margin: 150% 0% 0% 0%;
+        margin: 100% 0% 0% 0%;
     }
 }
 
 /* CARDS (INICIO)  */
 
-.padding_card {
-    padding: 5% 2% 0% 2%;
+.row2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 150px;
+}
+
+.padding_objetivo{
+    padding: 0% 0% 0% 33%;
+}
+
+@media (max-width: 576px) {
+    .padding_objetivo{
+        padding: 0% 0% 0% 20%;
+    }
 }
 
 .cor_cards {
+    border: none;
     background-color: var(--cor_primaria);
     color: var(--cor_secundaria);
+    height: 100%;
 }
-
-.cor_botao_card {
-    background-color: var(--cor_secundaria);
-}
-
 
 /* CARDS (FIM) */
+
+
+@media (min-width: 992px) {
+    #INSTAGRAM{
+        height: 130vh;
+        width: 100vw;
+        margin: 5% 0% 0% 0%;
+    }
+}
+
+@media (max-width: 576px) {
+    #INSTAGRAM{
+        height: 120vh;
+        width: 100vw;
+        margin: 100% 0% 0% 0%;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .img_insta{
+        padding: 18% 0% 00% 10%;
+    }
+}
+
+@media (max-width: 576px) {
+    .img_insta{
+        padding: 15% 10% 0% 10%;
+    }
+}
+
+.cor_font_insta {
+    color: var(--cor_secundaria);
+     
+}
+
 #CONTATO {
-    height: 30vh;
+    height: 140vh;
     width: 100vw;
+    background-color: #273440;
 
 
 }
 
+.cor_font_contato {
+    color: var(--cor_terciaria);
+     
+}
+
+@media (min-width: 992px) {
+    .img_rodape{
+        padding: 15% 6% 0% 6%;
+    }
+}
+
+@media (max-width: 576px) {
+    .img_rodape{
+        padding: 15% 10% 0% 10%;
+    }
+}
+@media (max-width: 576px) {
+    .width-height-btn_cell_rodape {
+        width: 320px;
+        height: 65px;
+        padding: 2% 0% 0% 0%;
+        
+    }
+    .padding-btn_cell{
+        padding: 0% 2% 0% 0%;;
+    }
+
+}
 /* RODAPÉ  */
 
 .scroll-link {
@@ -297,8 +384,8 @@ section {
 }
 
 .rodape{
-    background-color: var(--cor_primaria);
-    color: var(--cor_secundaria);
+    background-color: var(--cor_secundaria);
+    color: var(--cor_terciaria);
     display: flex;
     justify-content: center;
     text-align: center;
@@ -309,21 +396,16 @@ section {
     opacity: 0;
     transition: all 1s;
     transform: translateX(-100%);
-
+    transition: all 0.8s ease-in-out;
 }
 
-.hidden-right{
-    opacity: 0;
-    transition: all 1s;
-    transform: translateX(100%);
-
-}
 
 .show{
     opacity: 1;
     transition: all 1s;
     transform: translateX(0%);
 }
+
 
 .cards :nth-child(1){
     transition-delay: 450ms;
