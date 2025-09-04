@@ -263,7 +263,7 @@ section {
 
 @media (max-width: 576px) {
     #OBJETIVO{
-        height: 320vh;
+        height: 270vh;
         width: 100vw;
         margin: 100% 0% 0% 0%;
     }
@@ -346,24 +346,26 @@ section {
 
 @media (min-width: 992px) {
     .img_rodape{
-        padding: 15% 6% 0% 6%;
+        padding: 15% 4% 0% 4%;
     }
 }
 
 @media (max-width: 576px) {
     .img_rodape{
-        padding: 15% 10% 0% 10%;
+        padding: 15% 0% 0% 2%;
     }
 }
 @media (max-width: 576px) {
     .width-height-btn_cell_rodape {
-        width: 320px;
+        width: 340x;
         height: 65px;
-        padding: 2% 0% 0% 0%;
+        padding: 6% 0% 0% 0%;
+        font-size: 13px;
+        
         
     }
     .padding-btn_cell{
-        padding: 0% 2% 0% 0%;;
+        padding: 0% 6% 0% 0%;;
     }
 
 }
