@@ -31,7 +31,7 @@ Este projeto representou uma importante oportunidade de evolução profissional,
 
 ## 🖼️ Demonstração
 
-![Preview da Landing Page](./imagens/PrintLandingPage.png)
+![Preview da Landing Page](./imagens/PrintLandingPage.pn)
 
 ---
 
