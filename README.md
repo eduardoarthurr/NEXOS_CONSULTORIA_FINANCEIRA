@@ -31,7 +31,7 @@ Este projeto representou uma importante oportunidade de evolução profissional,
 
 ## 🖼️ Demonstração
 
-![Preview da Landing Page](./imagens/PrintLandingPage.pn)
+![Preview da Landing Page](https://github.com/eduardoarthurr/NEXOS_CONSULTORIA_FINANCEIRA/blob/main/imagens/PrintLandingPage.png)
 
 ---
 
